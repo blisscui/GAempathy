@@ -1,6 +1,6 @@
 # Self-generated facial affect prototypes are reliable but largely independent of trait empathy
 
-Code for Cui & Bex, *Scientific Reports* (revised manuscript, 2026).
+Code for Cui & Bex (manuscript under review).
 
 ## Contents
 
@@ -11,7 +11,7 @@ Code for Cui & Bex, *Scientific Reports* (revised manuscript, 2026).
 | `analysis/make_figs_v2.py` | Figures 2 and 3 (reads `final/`) |
 | `analysis/render_faces.py` | Renders Basel Face Model prototypes (used by Figure 3) |
 | `analysis/fig_1_ga_decision_tree.py` | Figure 1 schematic |
-| `analysis/corrected_analysis.py` | Data loaders: EQ scoring and per-participant prototypes (median of all selected faces) |
+| `analysis/loaders.py` | Data loaders: EQ scoring and per-participant prototypes (median of all selected faces) |
 
 ## Data
 
@@ -45,6 +45,6 @@ Permutation and bootstrap analyses use 5,000 iterations and random seed 42.
 ## Citation
 
 Cui, B. H. & Bex, P. J. Self-generated facial affect prototypes are reliable but largely independent of trait
-empathy. *Scientific Reports* (under review). Code DOI: see the Zenodo record for this repository.
+empathy. Manuscript under review. Code archived on Zenodo: https://doi.org/10.5281/zenodo.24025733
 
 Supported by NEI award R01EY032162.

@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-revision_analysis.py — single source for every number in the revised manuscript
-(Scientific Reports major revision, Nov 2026).
+revision_analysis.py: computes every statistic reported in Cui & Bex (manuscript under review).
 
 Inputs : GASuper-Empathy-Stats-Replication/python_stats/data (face-task + EQ),
          demographics xlsx, BDI-II (GASdepressionStats parser; used only as covariate).
@@ -24,7 +23,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.environ.get('GA_DATA_ROOT', os.path.join(HERE, '..', 'data'))   # folder holding the files below
 OUT = os.environ.get('GA_OUT', os.path.join(HERE, 'final')); os.makedirs(OUT, exist_ok=True)
 sys.path.insert(0, HERE)
-import corrected_analysis as ca                    # loaders: EQ scoring, prototypes (median of selected faces)
+import loaders as ca                               # EQ scoring and prototypes (median of selected faces)
 ca.DATA_DIR = os.path.join(DATA, 'GASstatsData')
 ca.EQ_CSV = os.path.join(DATA, 'Empathy Quotient Questionnaire (BC 2024) (Responses).csv')
 DEMO_XLSX = os.path.join(DATA, 'Demographic Mental Health + Ocular Health Questionnaire (BC 2024) (Responses) (1).xlsx')
