@@ -1,0 +1,48 @@
+{
+  "logging": {
+    "dir": "logs",
+    "level": "info"
+  },
+  "paths": {
+    "baselModelDir": "data/raw/BaselFaceModel/PublicMM1/matlab"
+  },
+  "screen": {
+    "skipSyncTests": true,
+    "meanLUT": 127,
+    "openWindow": false,
+    "mockRect": [0, 0, 1920, 1080]
+  },
+  "experiment": {
+    "generations": 7,
+    "emotions": 13,
+    "structureOrTexture": [1, 0],
+    "emotionLabels": [
+      "Amusement",
+      "Anger",
+      "Awe",
+      "Contempt",
+      "Disgust",
+      "Embarrassment",
+      "Fear",
+      "Happiness",
+      "Interest",
+      "Pride",
+      "Sadness",
+      "Shame",
+      "Surprise"
+    ]
+  },
+  "inputs": {
+    "interactive": true,
+    "defaults": {
+      "subjectId": "XX",
+      "generations": 6,
+      "faceSize": 6,
+      "rows": 3,
+      "cols": 4,
+      "screenWidthCm": 60,
+      "viewDistanceCm": 60,
+      "structureOrTexture": [1, 0]
+    }
+  }
+}

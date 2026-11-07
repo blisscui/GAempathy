@@ -1,0 +1,13 @@
+{
+  "title": "Code for: Self-generated facial affect prototypes are reliable but largely independent of trait empathy",
+  "upload_type": "software",
+  "description": "Genetic-algorithm face task (MATLAB/Psychtoolbox-3) and Python analysis code for Cui & Bex, Scientific Reports (under review). Computes every statistic and figure reported in the paper. Participant data are available from the corresponding author on reasonable request.",
+  "creators": [
+    {"name": "Cui, Bliss H.", "affiliation": "Northeastern University"},
+    {"name": "Bex, Peter J.", "affiliation": "Northeastern University"}
+  ],
+  "license": "MIT",
+  "keywords": ["empathy", "facial affect", "genetic algorithm", "Basel Face Model", "face perception"],
+  "grants": [],
+  "notes": "Supported by the National Eye Institute of the National Institutes of Health under Award Number R01EY032162."
+}

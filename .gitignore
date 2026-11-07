@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+analysis/final/
+data/
+*.mat
+*.h5
+.DS_Store
